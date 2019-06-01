@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/rootView">
+
+
+    <!-- Name of the section-->
+    <TextView
+        android:id="@+id/section"
+        style="@style/section"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Games" />
+
+    <!-- Name of the author-->
+    <TextView
+        android:id="@+id/author"
+        style="@style/author"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/section"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="author" />
+
+    <!-- The caption of that event -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/section"
+        tools:text="PlayStation Classic review – Sony's nostalgia trip misses the magic" />
+
+    <!-- the current date of the event-->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:text="28-11-2018" />
+
+    <!-- the current time of the event-->
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/date"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:text="T11:13:53Z" />
+
+    <!-- GMT time type-->
+    <TextView
+        android:id="@+id/gmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/gmtTypeTime"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/time"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <!-- The name of the website -->
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/website"
+        android:textAllCaps="false"
+        android:textColor="@color/author"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+
+</android.support.constraint.ConstraintLayout>

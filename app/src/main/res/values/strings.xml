@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Top News</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_games">No data to show</string>
+    <string name="gmtTypeTime">GMT</string>
+    <string name="website">theguardian.com</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Custom Settings</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_relevance_value</string>
+
+    <!-- Strings For page size Preference [CHAR LIMIT=30] -->
+    <string name="settings_page_size_label">Pages</string>
+    <string name="settings_page_size_key" translatable="false">page</string>
+    <string name="settings_page_size_default" translatable="false">15</string>
+
+    <!-- Strings For sections Preference [CHAR LIMIT=30] -->
+    <string name="settings_sections_label">Sections</string>
+    <string name="settings_sections_key" translatable="false">section</string>
+    <string name="settings_sections_default" translatable="false">football</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Label for sections football option [CHAR LIMIT=20] -->
+    <string name="settings_section_football_label">Football</string>
+    <string name="settings_section_football_value" translatable="false">football</string>
+
+    <!-- Label for section travel option [CHAR LIMIT=20] -->
+    <string name="settings_section_travel_label">Travel</string>
+    <string name="settings_section_travel_value" translatable="false">travel</string>
+
+    <!-- Label for section world option [CHAR LIMIT=20] -->
+    <string name="settings_section_world_label">World</string>
+    <string name="settings_section_world_value" translatable="false">world</string>
+
+    <!-- Label for section food option [CHAR LIMIT=20] -->
+    <string name="settings_section_food_label">Food</string>
+    <string name="settings_section_food_value" translatable="false">food</string>
+
+    <!-- Label for section games option [CHAR LIMIT=20] -->
+    <string name="settings_section_games_label">Games</string>
+    <string name="settings_section_games_value" translatable="false">games</string>
+
+    <!-- Label for section fashion option [CHAR LIMIT=20] -->
+    <string name="settings_section_fashion_label">Fashion</string>
+    <string name="settings_section_fashion_value" translatable="false">fashion</string>
+
+
+</resources>

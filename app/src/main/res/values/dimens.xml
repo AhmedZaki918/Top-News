@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- paddingStart for the parent ViewGroup -->
+    <dimen name="rootView_paddingStart">16dp</dimen>
+    <!-- paddingEnd for the parent ViewGroup -->
+    <dimen name="rootView_paddingEnd">16dp</dimen>
+    <!-- paddingRight for the parent ViewGroup -->
+    <dimen name="rootView_paddingRight">16dp</dimen>
+    <!-- paddingLeft for the parent ViewGroup -->
+    <dimen name="rootView_paddingLeft">16dp</dimen>
+
+</resources>
