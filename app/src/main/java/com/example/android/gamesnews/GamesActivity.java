@@ -25,6 +25,16 @@ import java.util.List;
 public class GamesActivity extends AppCompatActivity implements LoaderCallbacks<List<Games>> {
 
 
+    // a static inner class inside our Activity to use it in GamesAdapter.
+    static class ViewHolder {
+        public TextView sectionTextView;
+        public TextView authorTextView;
+        public TextView dateTextView;
+        public TextView timeTextView;
+        public TextView titleTextView;
+    }
+
+
     /**
      * Tag for the log messages
      */
