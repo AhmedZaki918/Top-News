@@ -1,4 +1,4 @@
-package com.example.android.gamesnews;
+package com.example.android.gamesnews.activity;
 
 import android.app.LoaderManager;
 import android.app.LoaderManager.LoaderCallbacks;
@@ -19,6 +19,12 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.android.gamesnews.BuildConfig;
+import com.example.android.gamesnews.GameLoader;
+import com.example.android.gamesnews.Games;
+import com.example.android.gamesnews.GamesAdapter;
+import com.example.android.gamesnews.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,7 +32,7 @@ public class GamesActivity extends AppCompatActivity implements LoaderCallbacks<
 
 
     // a static inner class inside our Activity to use it in GamesAdapter.
-    static class ViewHolder {
+    public static class ViewHolder {
         public TextView sectionTextView;
         public TextView authorTextView;
         public TextView dateTextView;

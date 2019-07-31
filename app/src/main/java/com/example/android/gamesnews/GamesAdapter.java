@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
+import com.example.android.gamesnews.activity.GamesActivity;
+
 import java.util.ArrayList;
 
 
