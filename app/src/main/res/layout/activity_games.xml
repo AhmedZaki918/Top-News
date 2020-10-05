@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/henry_co_1388031_unsplash"
-    tools:context=".GamesActivity">
+    tools:context=".activity.GamesActivity">
 
     <ListView
         android:id="@+id/list"

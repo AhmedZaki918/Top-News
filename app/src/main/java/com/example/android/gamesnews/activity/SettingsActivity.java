@@ -1,4 +1,4 @@
-package com.example.android.gamesnews;
+package com.example.android.gamesnews.activity;
 
 import android.content.SharedPreferences;
 import android.preference.ListPreference;
@@ -7,6 +7,8 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.android.gamesnews.R;
 
 public class SettingsActivity extends AppCompatActivity {
 

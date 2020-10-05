@@ -1,8 +1,10 @@
-package com.example.android.gamesnews;
+package com.example.android.gamesnews.utils;
 
 
 import android.text.TextUtils;
 import android.util.Log;
+
+import com.example.android.gamesnews.Games;
 
 import org.json.JSONArray;
 import org.json.JSONException;

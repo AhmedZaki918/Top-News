@@ -4,6 +4,8 @@ package com.example.android.gamesnews;
 import android.content.AsyncTaskLoader;
 import android.content.Context;
 
+import com.example.android.gamesnews.utils.QueryUtils;
+
 import java.util.List;
 
 /**
